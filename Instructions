@@ -1,0 +1,7 @@
+http://127.0.0.1:8000
+
+To install and use django in the project:
+pip install django
+django-admin startproject mysite .      --->Creates a mysite directory in the current working directory
+python manage.py startapp restaurant_menu       --->Creates the app in the project; multiple apps can b created in a project
+python manage.py runserver
